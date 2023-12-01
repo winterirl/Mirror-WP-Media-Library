@@ -3,6 +3,8 @@ This script makes a local copy of the contents of a Wordpress Media Library XML 
 It mirrors the directory paths on the original server from where the export was made.
 Re-Linking to the WPDB will be necessary after uploading these copied images via SFTP.
 
+--- THIS IS INTENDED TO BE RUN INSIDE A LOCAL PHP ENVIRONMENT, NOT AS A PLUGIN INSIDE OF WORDPRESS ----
+
 This script assumes a properly formatted UTF-8 XML file. 
 Wordpress may occasionally export with invalid characters. 
 The XMLReader will not handle them, however, it WILL point out the line these invalid characters are on.
